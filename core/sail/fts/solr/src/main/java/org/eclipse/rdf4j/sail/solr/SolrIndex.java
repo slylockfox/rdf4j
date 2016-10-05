@@ -47,12 +47,12 @@ import org.slf4j.LoggerFactory;
 import com.google.common.base.Function;
 import com.google.common.base.Functions;
 import com.google.common.collect.Iterables;
-import org.locationtech.spatial4j.core.context.SpatialContext;
-import org.locationtech.spatial4j.core.context.SpatialContextFactory;
-import org.locationtech.spatial4j.core.shape.Point;
-import org.locationtech.spatial4j.core.shape.Rectangle;
-import org.locationtech.spatial4j.core.shape.Shape;
-import org.locationtech.spatial4j.core.shape.SpatialRelation;
+import org.locationtech.spatial4j.context.SpatialContext;
+import org.locationtech.spatial4j.context.SpatialContextFactory;
+import org.locationtech.spatial4j.shape.Point;
+import org.locationtech.spatial4j.shape.Rectangle;
+import org.locationtech.spatial4j.shape.Shape;
+import org.locationtech.spatial4j.shape.SpatialRelation;
 
 /**
  * @see LuceneSail

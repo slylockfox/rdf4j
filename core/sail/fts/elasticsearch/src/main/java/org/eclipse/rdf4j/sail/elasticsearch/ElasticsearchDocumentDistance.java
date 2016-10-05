@@ -17,8 +17,8 @@ import org.elasticsearch.common.unit.DistanceUnit;
 import org.elasticsearch.search.SearchHit;
 
 import com.google.common.base.Function;
-import org.locationtech.spatial4j.core.context.SpatialContext;
-import org.locationtech.spatial4j.core.distance.DistanceUtils;
+import org.locationtech.spatial4j.context.SpatialContext;
+import org.locationtech.spatial4j.distance.DistanceUtils;
 
 public class ElasticsearchDocumentDistance extends ElasticsearchDocumentResult implements DocumentDistance {
 

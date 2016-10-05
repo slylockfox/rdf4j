@@ -41,9 +41,9 @@ import org.slf4j.LoggerFactory;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.SetMultimap;
 import com.google.common.collect.Sets;
-import org.locationtech.spatial4j.core.context.SpatialContext;
-import org.locationtech.spatial4j.core.shape.Point;
-import org.locationtech.spatial4j.core.shape.Shape;
+import org.locationtech.spatial4j.context.SpatialContext;
+import org.locationtech.spatial4j.shape.Point;
+import org.locationtech.spatial4j.shape.Shape;
 
 public abstract class AbstractSearchIndex implements SearchIndex {
 
